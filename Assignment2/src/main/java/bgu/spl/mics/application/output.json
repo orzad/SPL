@@ -1,0 +1,134 @@
+{
+  "cpuTime": 23366,
+  "gpuTime": 1394,
+  "DataBatches": 16690,
+  "students": [
+    {
+      "name": "Simba",
+      "models": [
+        {
+          "name": "YOLO10",
+          "published": true
+        },
+        {
+          "name": "ResNet9000",
+          "published": true
+        },
+        {
+          "name": "LessEfficientNet",
+          "published": true
+        },
+        {
+          "name": "DensestNet",
+          "published": true
+        }
+      ]
+    },
+    {
+      "name": "Zazu",
+      "models": [
+        {
+          "name": "VIT",
+          "published": true
+        }
+      ]
+    },
+    {
+      "name": "Pumba",
+      "models": [
+        {
+          "name": "GPT4",
+          "published": true
+        },
+        {
+          "name": "GPT5",
+          "published": true
+        },
+        {
+          "name": "GPT10",
+          "published": true
+        }
+      ]
+    },
+    {
+      "name": "Timon",
+      "models": [
+        {
+          "name": "Percepetron",
+          "published": true
+        },
+        {
+          "name": "MoreStyleGAN",
+          "published": true
+        },
+        {
+          "name": "ConditionalGAN",
+          "published": true
+        }
+      ]
+    },
+    {
+      "name": "Nala",
+      "models": [
+        {
+          "name": "YOLO9000",
+          "published": true
+        },
+        {
+          "name": "VIT2",
+          "published": true
+        },
+        {
+          "name": "MuchMoreEfficientNet",
+          "published": true
+        },
+        {
+          "name": "DenserNet",
+          "published": true
+        }
+      ]
+    }
+  ],
+  "conferences": [
+    {
+      "name": "ICML",
+      "models": [
+        "YOLO10",
+        "YOLO9000",
+        "Bert",
+        "Percepetron",
+        "GPT4"
+      ]
+    },
+    {
+      "name": "NeurIPS",
+      "models": []
+    },
+    {
+      "name": "CVPR",
+      "models": [
+        "VIT",
+        "ResNet9000",
+        "LessEfficientNet",
+        "VIT2"
+      ]
+    },
+    {
+      "name": "ECCV",
+      "models": [
+        "GPT5",
+        "GNN",
+        "GPT10",
+        "MuchMoreEfficientNet",
+        "DensestNet",
+        "MoreStyleGAN",
+        "DenserNet",
+        "ConditionalGAN"
+      ]
+    },
+    {
+      "name": "AISTATS",
+      "models": []
+    }
+  ]
+}
