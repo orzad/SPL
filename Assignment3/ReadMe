@@ -1,0 +1,33 @@
+mvn clean
+mvn package
+cd target
+java -cp spl-net-1.0-SNAPSHOT.jar bgu.spl.net.impl.BGSserver.TCPMain 7777
+
+java -cp spl-net-1.0-SNAPSHOT.jar bgu.spl.net.impl.BGSserver.ReactorMain 2 7777
+
+
+make clean
+make
+./bin/echoExample 127.0.0.1 7777
+
+
+filtered words are at database
+
+
+REGISTER or 1234 12121997
+
+LOGIN or 1234 1
+
+LOGOUT
+
+FOLLOW 0 rubin
+
+POST content @rubin
+
+PM rubin content
+
+LOGSTAT
+
+STAT rubin or
+
+BLOCK rubin
